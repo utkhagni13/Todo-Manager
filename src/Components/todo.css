@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+
+.task-input {
+  border-radius: 4%;
+  border-style: groove;
+  border-color: rgb(14, 14, 60);
+}
+
+.tile {
+  margin: 30px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  box-shadow: 5px 6px 9px -4px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 5px 6px 9px -4px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 5px 6px 9px -4px rgba(255, 255, 255, 1);
+}
+
+.completed-task {
+  font-size: 30px;
+  color: rgb(23, 213, 23);
+  text-decoration: line-through;
+  left: 0;
+}
+
+.incomplete-task {
+  font-size: 30px;
+}
+
+.heading {
+  font-size: 4em;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 2%;
+  color: #ffffff;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
